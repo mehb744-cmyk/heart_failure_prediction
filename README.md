@@ -11,5 +11,5 @@ Cardiovascular diseases (CVDs) are among the leading causes of death globally, a
 
 
 ## Project Status
-
-Currently in the data exploration stage.
+Machine Learning models 
+Among the baseline models evaluated on the test set, Logistic Regression achieved the highest accuracy (89.13%) and F1-score (90.29%), while SVM achieved the highest ROC-AUC (94.00%) and KNN achieved the highest recall (93.14%).
