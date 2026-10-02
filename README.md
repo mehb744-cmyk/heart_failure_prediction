@@ -13,3 +13,11 @@ Cardiovascular diseases (CVDs) are among the leading causes of death globally, a
 ## Project Status
 Machine Learning models 
 Among the baseline models evaluated on the test set, Logistic Regression achieved the highest accuracy (89.13%) and F1-score (90.29%), while SVM achieved the highest ROC-AUC (94.00%) and KNN achieved the highest recall (93.14%).
+
+Cross-Validation
+The five baseline models demonstrated different performance characteristics across the evaluation metrics. SVM achieved the highest mean accuracy, recall, and F1-score, while Logistic Regression achieved the highest mean precision. Random Forest achieved the highest mean ROC-AUC
+
+Hyperparameter Tuning
+After hyperparameter tuning using 5-fold stratified cross-validation, the Random Forest achieved a mean ROC-AUC of 0.9331, compared with 0.9227 for Logistic Regression and 0.9225 for SVM
+
+The tuned Random Forest achieved a cross-validation ROC-AUC of 0.9331. On the independent test set, Logistic Regression and Random Forest achieved approximately 0.933 ROC-AUC, while SVM achieved approximately 0.929
