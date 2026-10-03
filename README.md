@@ -8,11 +8,11 @@ This project is a rebuilt and extended version of an earlier heart-failure predi
 This version reconstructs the workflow with a cleaner project structure, documented analysis, reusable code, version control, testing, and improved documentation.
 
 ### Dataset
-Dataset: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
-Source: Kaggle
-Number of records: 918
-Features: 13 original clinical/demographic variables
-Target: Heart Disease
+Dataset: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction<br>
+Source: Kaggle<br>
+Number of records: 918<br>
+Features: 13 original clinical/demographic variables<br>
+Target: Heart Disease<br>
 
 The dataset is used to develop machine-learning models for predicting the HeartDisease target based on patient demographic and clinical characteristics.
 
